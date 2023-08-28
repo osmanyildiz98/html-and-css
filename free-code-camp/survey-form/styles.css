@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3.125rem auto 0 auto;
+    font-size: 24px
+}
+
+h1,
+p,
+label,
+legend {
+    color: #F3F3F3;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+p {
+    margin-top: 0;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form {
+    padding: 2.5rem;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-style: none;
+}
+
+.info input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.radio label {
+    padding: 5px;
+}
+
+.check input {
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+
+textarea {
+    padding: 10px;
+    font-size: inherit;
+    max-height: 9rem;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: inherit;
+    border-style: none;
+    background-color: #37af65;
+}

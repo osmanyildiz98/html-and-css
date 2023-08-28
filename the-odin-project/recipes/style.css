@@ -1,0 +1,46 @@
+ body {
+    background-color:beige;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    }
+
+ h1 {
+    text-align: center;
+    color: rgb(105, 215, 235);
+    }
+
+ div {
+    display: flex;
+    justify-content: center;
+    }
+    
+ ul {
+    list-style:none;
+    text-align: center;
+    margin-right: 40px;
+    }
+
+ li {
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(200, 172, 127);
+    }    
+
+ a:link, a:visited {
+    text-decoration: none;
+    color: rgb(16, 82, 124);
+    }
+
+ ol {
+    list-style:none;
+    text-align: center;
+    margin-right: 40px;
+    }
+ p {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(200, 172, 127);
+    }
+ 
+ .recipes {
+    border-radius: 50%;
+}

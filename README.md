@@ -25,6 +25,8 @@
                 </li>
                 <li><a href="https://osmanyildiz98.github.io/html-and-css/free-code-camp/tribute-page/" style="text-decoration: none; color: #836096; font-family: 'Pacifico', cursive; font-family: 'Phudu', cursive; font-family: 'Roboto', sans-serif;">Tribute Page Project</a>
                 </li>
+                <li><a href="https://osmanyildiz98.github.io/html-and-css/free-code-camp/technical-documentation-page/" style="text-decoration: none; color: #836096; font-family: 'Pacifico', cursive; font-family: 'Phudu', cursive; font-family: 'Roboto', sans-serif;">Technical Documentation Page Project</a>
+                </li>
             </ul>
         </li>
     </ul>

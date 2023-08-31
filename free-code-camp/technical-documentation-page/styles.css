@@ -1,0 +1,139 @@
+html,
+body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    border-right: 2px solid black;
+}
+
+nav header {
+    font-weight: bold;
+    font-size: 28.8px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    border-top: 1px solid #4d4e53;
+    position: relative;
+    width: 300px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #4d4e53;
+    font-size: 16px;
+    margin: 10px 30px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+}
+
+section {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+main header {
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 0;
+}
+
+main p {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+main li {
+    padding: 15px 0px 0px 20px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 414px) {
+
+    /* iPhone 11 ve benzeri cihazlar için stil değişiklikleri */
+    body {
+        font-size: 14px;
+        /* display: flex; */
+    }
+
+    #navbar {
+        width: 33.33%;
+        /* Sayfanın üçte biri */
+        height: 100vh;
+        background-color: #f7f7f7;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav li {
+        border-top: 1px solid #4d4e53;
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: #4d4e53;
+        font-size: 16px;
+        margin: 10px 20px;
+    }
+
+    #main-doc {
+        width: 66.66%;
+        /* Sayfanın üçte ikisi */
+        padding: 20px;
+    }
+
+    section {
+        padding-left: 20px;
+    }
+
+    main header {
+        font-size: 24px;
+    }
+
+    code {
+        margin: 5px;
+        padding: 10px;
+    }
+}

@@ -3,6 +3,7 @@ body {
     padding: 0;
     overflow: hidden;
     box-sizing: border-box;
+    background: linear-gradient(to right, #27183F 0%, #370648 40%, #C4595F 70%, #F89C69 90%, #FFF9CB 100%);
 }
 
 * {
@@ -27,14 +28,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    /* box-shadow: ; */
     background-color: #37306B;
 }
 
 .rowone {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     height: 25px;
     width: 90px;
 }
@@ -45,9 +44,7 @@ body {
     background-color: #FFF5E0;
 }
 
-.open {
-    background-color: #F0B86E;
-}
+
 
 .building-two {
     width: 8%;
@@ -85,8 +82,6 @@ body {
 .rowtwo:last-child {
     height: 60px;
 }
-
-
 
 .building-three {
     width: 6%;
@@ -163,47 +158,217 @@ body {
     width: 7%;
     height: 35%;
     background-color: #3F3B6C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rowsix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.wsix {
+    background-color: #FFFFDD;
+    height: 30px;
+    width: 60px;
 }
 
 .building-seven {
-    width: 7%;
+    width: 9%;
     height: 75%;
     background-color: #46458C;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    gap: 10px;
+}
+
+.rowseven {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 105px;
+    height: 15px;
+    gap: 10px;
+}
+
+.wseven {
+    width: 15px;
+    height: 15px;
+    background-color: #FFF5E0;
 }
 
 .building-eight {
     width: 6%;
     height: 55%;
     background-color: #37306B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.roweight {
+    display: flex;
+    width: 80px;
+    height: 40px;
+}
+
+.weight {
+    width: 40px;
+    height: 40px;
+    background-color: #E3CCAE;
+}
+
+.border {
+    border-left: 1px solid black;
 }
 
 .building-nine {
     width: 9%;
     height: 69%;
     background-color: #2D033B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.rownine {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+}
+
+.colnine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    gap: 15px;
+}
+
+.wnine {
+    width: 15px;
+    height: 15px;
+    background-color: #F4EEE0;
 }
 
 .building-ten {
     width: 10%;
     height: 45%;
     background-color: #46458C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.rowten {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.wten {
+    width: 20px;
+    height: 40px;
+    background-color: #F29727;
 }
 
 .building-eleven {
     width: 8%;
     height: 25%;
     background-color: #46244C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.roweleven {
+    background-color: #F4EEE0;
+    width: 90%;
+    height: 3px;
 }
 
 .building-twelve {
     width: 7%;
     height: 65%;
     background-color: #37306B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
+.rowtwelve {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70px;
+    height: 90px;
+}
+
+.coltwelve {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    height: 10px;
+    gap: 10px;
+}
+
+.wtwelve {
+    width: 10px;
+    height: 10px;
+    background-color: #F4EEE0;
 }
 
 .building-thirteen {
-    width: 10%;
-    height: 50%;
+    width: 8%;
+    height: 42%;
     background-color: #2D033B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rowthirteen {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 105px;
+    height: 40px;
+}
+
+.wthirteen {
+    width: 15px;
+    height: 40px;
+    background-color: #9BA4B5;
+}
+
+.open {
+    background-color: #F0B86E;
 }

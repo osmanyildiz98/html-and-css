@@ -1,0 +1,196 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    height: 100vw;
+    /* overflow: hidden; */
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--main-red);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    margin: 1rem 2rem;
+}
+
+.link {
+    margin-right: 2rem;
+}
+
+.link a {
+    text-decoration: none;
+    color: var(--main-white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-gray);
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome-header {
+    color: var(--main-white);
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.welcome-paragraph {
+    color: var(--main-red);
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#projects {
+    background-color: var(--main-blue);
+
+}
+
+.project-tile {
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    color: var(--main-white);
+    font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 6rem;
+}
+
+.project-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 24.3rem;
+    height: 27.5rem;
+
+}
+
+.project-text {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--main-gray);
+    color: var(--main-white);
+    width: 24.3rem;
+    height: 3.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-text:hover {
+    color: var(--main-red);
+}
+
+.project-img {
+    height: 24.3rem;
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-gray);
+}
+
+.contact-title {
+    color: var(--main-white);
+    margin-bottom: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.contact-text {
+    color: var(--main-white);
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.contact-links {
+    margin-top: 5rem;
+    gap: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: var(--main-white);
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease-out;
+}
+
+.contact-links a:hover {
+    transform: translateY(0.5rem);
+    color: var(--main-red);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-gray);
+    padding: 2rem;
+    border-top: 0.4rem solid var(--main-red);
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: var(--main-white);
+}
+
+@media screen and (max-width: 440px) {
+    body {
+        font-size: 16px;
+    }
+}

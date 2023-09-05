@@ -20,6 +20,8 @@
                 <li><a href="https://osmanyildiz98.github.io/html-and-css/free-code-camp/technical-documentation-page/">Technical Documentation Page Project</a>
                 </li>
                 <li><a href="https://osmanyildiz98.github.io/html-and-css/free-code-camp/product-landing-page/">Product Landing Page Project</a>
+                </li>
+                <li><a href="https://osmanyildiz98.github.io/html-and-css/free-code-camp/personal-portfolio-webpage/">Personal Porfolio Webpage Project</a>
                 </li> 
             </ul>
         </li>

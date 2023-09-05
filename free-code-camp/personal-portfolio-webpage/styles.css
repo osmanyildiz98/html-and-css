@@ -76,7 +76,8 @@ body {
 
 #projects {
     background-color: var(--main-blue);
-
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .project-tile {
@@ -101,7 +102,7 @@ body {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    width: 26rem;
+    width: 25rem;
     height: 27.5rem;
 
 }
@@ -110,7 +111,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--main-gray);
     color: var(--main-white);
-    width: 26rem;
+    width: 25rem;
     height: 3.1rem;
     display: flex;
     justify-content: center;

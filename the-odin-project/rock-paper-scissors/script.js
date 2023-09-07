@@ -9,65 +9,54 @@ function getComputerChoice() {
     return "scissors"
 }
 
-function playRound(playerSelection) {
-    let player = playerSelection.toLowerCase();
-    let computer = getComputerChoice();
-
-    if (player !== computer) {
-        if (player == "rock") {
-            if (computer == "scissors") {
-                return "You Win! Rock break the Scissors"
-            } else {
-                return "You Lose! Paper beats Rock"
-            }
-        } else if (player == "paper") {
-            if (computer == "rock") {
-                return "You Win! Paper beats Rock"
-            } else {
-                return "You Lose! Scissors cut the Paper"
-            }
-        } else if (player == "scissors") {
-            if (computer == "paper") {
-                return "You Win! Scissors cut the Paper"
-            } else {
-                return "You Lose! Rock breaks the Scissors"
-            }
-        }
-
-    } else {
-        return "Tie Game!"
-    }
-}
 
 function game() {
-    function playRound(playerSelection) {
-        let player = playerSelection.toLowerCase();
+    let playerScore = 0;
+    let computerScore = 0;
+
+    while (playerScore < 5 && computerScore < 5) {
+
+        let playerChoise = prompt("Rock Paper Scissors ?", " ");
+        let player = playerChoise.toLowerCase();
         let computer = getComputerChoice();
 
         if (player !== computer) {
             if (player == "rock") {
                 if (computer == "scissors") {
-                    return "You Win! Rock break the Scissors"
+                    playerScore++;
+                    console.log("You Win! Rock break the Scissors")
                 } else {
-                    return "You Lose! Paper beats Rock"
+                    computerScore++;
+                    console.log("You Lose! Paper beats Rock")
                 }
             } else if (player == "paper") {
                 if (computer == "rock") {
-                    return "You Win! Paper beats Rock"
+                    playerScore++;
+                    console.log("You Win! Paper beats Rock")
                 } else {
-                    return "You Lose! Scissors cut the Paper"
+                    computerScore++;
+                    console.log("You Lose! Scissors cut the Paper")
                 }
             } else if (player == "scissors") {
                 if (computer == "paper") {
-                    return "You Win! Scissors cut the Paper"
+                    playerScore++;
+                    console.log("You Win! Scissors cut the Paper")
                 } else {
-                    return "You Lose! Rock breaks the Scissors"
+                    computerScore++;
+                    console.log("You Lose! Rock breaks the Scissors")
                 }
             }
 
         } else {
-            return "Tie Game!"
+            console.log("Tie Game!")
         }
+
+    }
+
+    if (playerScore === 5) {
+        return "You Win!"
+    } else {
+        return "You Lose!"
     }
 }
 

@@ -1,0 +1,145 @@
+:root {
+    --textColor: rgba(256, 256, 256, 0.9);
+    --bgColor: rgba(0, 0, 0, .25)
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/snowy-mountain-with-trees.jpeg);
+    background-size: cover;
+    font-size: 1.25rem;
+}
+
+.main {
+    display: flex;
+    justify-content: end;
+}
+
+.form-container {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+}
+
+.form-part {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    top: 2rem;
+    bottom: 2rem;
+    left: 1rem;
+    right: 2rem;
+    background-color: var(--bgColor);
+    color: var(--textColor);
+}
+
+.form-top {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+img {
+    width: 4rem;
+}
+
+.form-top-header {
+    padding: 3rem;
+    text-align: center;
+    color: var(--textColor);
+    font-size: 5rem;
+}
+
+.form-top-header::before,
+.form-top-header::after {
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    right: 1.5rem;
+}
+
+.form-top-header::before {
+    transform: scale(0, 1);
+    transition: transform ease-out 600ms;
+    border-top: 1px solid var(--textColor);
+    border-bottom: 1px solid var(--textColor);
+}
+
+.form-top-header::after {
+    transform: scale(1, 0);
+    transition: transform ease-out 700ms;
+    border-left: 1px solid var(--textColor);
+    border-right: 1px solid var(--textColor);
+}
+
+.form-top-header:hover::before {
+    transform: scale(1.05, 1);
+}
+
+.form-top-header:hover::after {
+    transform: scale(1, 1.25);
+}
+
+.form-middle {
+    display: flex;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.form-middle-inside {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.3);
+    color: var(--textColor);
+}
+
+label {
+    margin-bottom: .2rem;
+}
+
+button {
+    width: 100%;
+    padding: .3rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.3);
+    color: var(--textColor);
+}
+
+.button-text {
+    font-size: 1rem;
+}
+
+a {
+    margin-left: .5rem;
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+.form-footer {
+    align-self: end;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}

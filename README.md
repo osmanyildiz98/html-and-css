@@ -8,6 +8,8 @@
                 <li><a href="https://osmanyildiz98.github.io/html-and-css/the-odin-project/landing-page/">Landing Page Project</a></li>
                 <li><a href="https://osmanyildiz98.github.io/html-and-css/the-odin-project/recipe/index.html">Recipe Project</a>
                 </li>
+                <li><a href="https://osmanyildiz98.github.io/html-and-css/the-odin-project/sign-up-form/index.html">Sign Up Form Project</a>
+                </li>
             </ul>
         </li>
         <li>

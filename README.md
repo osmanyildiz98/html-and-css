@@ -10,6 +10,8 @@
                 </li>
                 <li><a href="https://osmanyildiz98.github.io/html-and-css/the-odin-project/sign-up-form/index.html">Sign Up Form Project</a>
                 </li>
+                <li><a href="https://osmanyildiz98.github.io/html-and-css/the-odin-project/admin-dashboard/index.html">Admin Dashboard Project</a>
+                </li>
             </ul>
         </li>
         <li>
